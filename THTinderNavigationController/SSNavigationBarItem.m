@@ -62,7 +62,7 @@
         }
     }
 
-    ratio = ratio / 2.0f + 0.5f;
+    ratio = ratio / 4.0f + 0.5f;
     if (self.imageView) {
         CGFloat height = self.frame.size.height * ratio;
         CGFloat width = self.frame.size.width * ratio;
