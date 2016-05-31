@@ -131,7 +131,7 @@ typedef NS_ENUM(NSInteger, THSlideType) {
     if (!_paggingNavbar) {
         _paggingNavbar = [[THTinderNavigationBar alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.bounds), 64)];
         _paggingNavbar.backgroundColor = [UIColor clearColor];
-        _paggingNavbar.barTintColor = [UIColor colorWithRed:90/255.f green:182/255.f blue:112/255. alpha:1.0];
+        _paggingNavbar.barTintColor = [UIColor colorWithRed:255/255.f green:210/255.f blue:56/255. alpha:1.0];
         _paggingNavbar.navigationController = self;
         _paggingNavbar.itemViews = self.navbarItemViews;
         [self.view addSubview:_paggingNavbar];
